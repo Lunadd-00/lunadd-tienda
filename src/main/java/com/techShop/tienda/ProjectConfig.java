@@ -11,7 +11,7 @@ import org.thymeleaf.templatemode.TemplateMode;
  */
 public class ProjectConfig implements WebMvcConfigurer {
 
-    // prueba ruta correcta
+    // prueba ruta 
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
