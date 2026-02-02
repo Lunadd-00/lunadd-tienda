@@ -11,8 +11,6 @@ import org.thymeleaf.templatemode.TemplateMode;
  */
 public class ProjectConfig implements WebMvcConfigurer {
 
-    // prueba ruta 
-
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/").setViewName("index");
